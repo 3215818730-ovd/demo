@@ -1,6 +1,7 @@
 body {
   font-family: 'Delius', cursive;
 }
+
 .background {
   position: fixed;
   right:-30px;
@@ -14,7 +15,7 @@ filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
 
 .background h6 {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 900;
   -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5)); 
 filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
 }
