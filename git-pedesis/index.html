@@ -13,6 +13,21 @@
 
 </head>
 <body>
+  
+  <script type="text/javascript">
+    
+        var bodyBgs = [];
+        bodyBgs[0] = "https://i.loli.net/2020/11/08/BZcUwJoa3CDn8VY.jpg";
+        bodyBgs[1] = "https://i.loli.net/2020/11/08/Qmy6dDkxbtrOeBG.jpg";
+        bodyBgs[2] = "https://i.loli.net/2020/11/08/PaIj83ZnVUziQcY.jpg";
+        bodyBgs[3] = "https://kyun.ltyuanfang.cn/tc/2020/10/25/e81732262036d.jpg";
+        bodyBgs[4] = "https://i.loli.net/2020/11/08/3dhzqGnlobH5ysC.jpg";
+
+        var randomBgIndex = Math.round( Math.random() * 4 );
+
+
+        document.write('<style>body{background:#000 url(' + bodyBgs[randomBgIndex] + ') no-repeat center 0% / cover}</style>');
+    </script>
 
 
 
